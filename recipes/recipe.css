@@ -1,0 +1,58 @@
+body {
+    background-color: #ededf1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 64px;
+}
+
+h2{
+    margin: 0;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    gap: 64px;
+    margin: 64px;
+    margin-top: 0;
+}
+
+.desc { 
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right {
+    display: flex; 
+    flex-direction: column;
+    gap: 32px;
+}
+
+.vl {
+    border-left: 3px solid gray;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+.br {
+    border-top: 3px solid gray;
+    border-radius: 25px;
+    opacity: 0.5;
+}
